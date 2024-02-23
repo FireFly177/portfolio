@@ -4,3 +4,16 @@
   box-sizing: border-box;
   font-family: "JetBrainsMono Nerd";
 }
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Ensure full viewport height */
+  margin: 0; /* Remove default margin */
+}
+
+#about, #projects {
+  margin: 20px 0;
+}
