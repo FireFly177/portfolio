@@ -7,20 +7,39 @@
   color: white;
 }
 
+body {
+  height: 100vh;
+}
+
 .main {
   display: flex;
   flex-direction: column;
   justify-content: center; 
   align-items: center;
-  height: 100vh;
+  margin-bottom: 5rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
   margin: 0;
 }
 
 #about, #projects, #contact {
-  margin: 20px 0;
+  margin: 10px 0;
+}
+
+.photos {
+  height: 500px;
+  width: auto;
+  overflow: hidden;
 }
 #photo {
-  width: 500px;
+  height: 100%;
+  width: auto;
+  object-fit: none;
   /* margin: 20px 0; */
 }
 
