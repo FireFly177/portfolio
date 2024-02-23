@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "JetBrainsMono Nerd";
+  font-family: "JetBrainsMono Nerd", monospace;
   background-color: #24273a;
   color: white;
 }
