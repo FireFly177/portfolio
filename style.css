@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "JetBrainsMono Nerd";
+  background-color: #24273a;
 }
 
 .main {
@@ -24,6 +25,6 @@
 
 #about, #projects, #contact {
   padding: 10px;
-  border: 1px solid white;
+  border: 3px solid #7dc4e4;
   border-radius: 10px;
 }
