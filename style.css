@@ -17,3 +17,14 @@
 #about, #projects {
   margin: 20px 0;
 }
+#photo {
+  width: 500px;
+  /* object-fit: cover; */
+  margin: 20px 0;
+}
+
+#about, #projects {
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
