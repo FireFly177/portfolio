@@ -8,22 +8,21 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  height: 100vh; /* Ensure full viewport height */
-  margin: 0; /* Remove default margin */
+  justify-content: center; 
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 
-#about, #projects {
+#about, #projects, #contact {
   margin: 20px 0;
 }
 #photo {
   width: 500px;
-  /* object-fit: cover; */
-  margin: 20px 0;
+  /* margin: 20px 0; */
 }
 
-#about, #projects {
+#about, #projects, #contact {
   padding: 10px;
   border: 1px solid white;
   border-radius: 10px;
